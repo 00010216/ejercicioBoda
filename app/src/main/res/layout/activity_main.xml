@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEBE9"
+    tools:context="com.example.kcruz.ejercicioboda.MainActivity">
+
+    <View
+        android:id="@+id/door"
+        android:layout_width="10dp"
+        android:layout_height="80dp"
+        android:background="#b38455"/>
+
+    <View
+        android:id="@+id/table2"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@+id/door"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_toEndOf="@+id/door"
+        android:layout_toRightOf="@+id/door"
+        android:background="@color/purpletable" />
+
+    <View
+        android:id="@+id/table3"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+
+        android:layout_above="@+id/table8"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:background="#AB47BC" />
+
+    <View
+        android:id="@+id/table4"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignEnd="@+id/Obdulio"
+        android:layout_alignRight="@+id/Obdulio"
+        android:layout_alignTop="@+id/Hugo"
+        android:background="@color/purpletable" />
+
+    <View
+        android:id="@+id/table5"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@+id/table2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/table2"
+        android:layout_marginBottom="56dp"
+        android:background="@color/purpletable" />
+
+    <View
+        android:id="@+id/table6"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/table5"
+        android:layout_marginEnd="31dp"
+        android:layout_marginRight="31dp"
+        android:background="@color/purpletable" />
+
+    <View
+        android:id="@+id/table7"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/Obdulio"
+        android:layout_toEndOf="@+id/Hugo"
+        android:layout_toRightOf="@+id/Hugo"
+        android:background="#AB47BC" />
+
+    <View
+        android:id="@+id/table8"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+
+        android:layout_above="@+id/Obdulio"
+        android:layout_alignLeft="@+id/table9"
+        android:layout_alignStart="@+id/table9"
+        android:layout_marginBottom="26dp"
+        android:background="@color/purpletable" />
+
+    <View
+        android:id="@+id/table9"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+
+        android:layout_alignLeft="@+id/Sebas"
+        android:layout_alignStart="@+id/Sebas"
+        android:layout_below="@+id/table2"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="47dp"
+        android:background="#CE93D8" />
+
+    <View
+        android:id="@+id/table10"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+
+        android:layout_alignEnd="@+id/Carlos"
+        android:layout_alignRight="@+id/Carlos"
+        android:layout_alignTop="@+id/table9"
+        android:background="@color/purpletable" />
+
+    <View
+        android:id="@+id/table10"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/table3"
+        android:layout_toLeftOf="@+id/Obdulio"
+        android:layout_toStartOf="@+id/Obdulio"
+        android:background="@color/purpletable" />
+
+
+
+    <TextView
+        android:id="@+id/Douglas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignEnd="@+id/table5"
+        android:layout_alignRight="@+id/table5"
+        android:layout_below="@+id/table7"
+        android:text="Douglas" />
+
+    <TextView
+        android:id="@+id/Pedro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/table3"
+        android:layout_toLeftOf="@+id/table6"
+        android:layout_toStartOf="@+id/table6"
+        android:text="Pedro" />
+
+    <TextView
+        android:id="@+id/amigo1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/table3"
+        android:layout_toLeftOf="@+id/Pedro"
+        android:layout_toStartOf="@+id/Pedro"
+        android:text="amigo1" />
+
+    <TextView
+        android:id="@+id/amigo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/table3"
+        android:layout_alignLeft="@+id/Hugo"
+        android:layout_alignStart="@+id/Hugo"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:text="amigo2" />
+
+    <TextView
+        android:id="@+id/amigo3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/table3"
+        android:layout_alignStart="@+id/table3"
+        android:layout_below="@+id/amigo4"
+        android:text="amigo3" />
+
+    <TextView
+        android:id="@+id/amigo4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Pedro"
+        android:layout_toLeftOf="@+id/table3"
+        android:layout_toStartOf="@+id/table3"
+        android:text="amigo4" />
+
+    <TextView
+        android:id="@+id/Karla"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/table4"
+        android:layout_alignLeft="@+id/table2"
+        android:layout_alignStart="@+id/table2"
+        android:layout_marginBottom="11dp"
+        android:text="Karla" />
+
+    <TextView
+        android:id="@+id/Sara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/table6"
+        android:layout_alignRight="@+id/table6"
+        android:layout_below="@+id/table6"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
+        android:text="Sara" />
+
+    <TextView
+        android:id="@+id/Obdulio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/table6"
+        android:layout_alignLeft="@+id/Sara"
+        android:layout_alignStart="@+id/Sara"
+        android:layout_marginBottom="18dp"
+        android:text="Obdulio" />
+
+    <TextView
+        android:id="@+id/Carlos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/Obdulio"
+        android:layout_alignBottom="@+id/Obdulio"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_toLeftOf="@+id/Obdulio"
+        android:layout_toStartOf="@+id/Obdulio"
+        android:text="Carlos" />
+    <TextView
+        android:id="@+id/Sebas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/Karla"
+        android:layout_alignBottom="@+id/Karla"
+        android:layout_alignEnd="@+id/table2"
+        android:layout_alignRight="@+id/table2"
+        android:text="Sebas" />
+
+    <TextView
+        android:id="@+id/Hugo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/table2"
+        android:layout_toLeftOf="@+id/table3"
+        android:layout_toStartOf="@+id/table3"
+        android:text="Hugo" />
+
+
+
+</RelativeLayout>
